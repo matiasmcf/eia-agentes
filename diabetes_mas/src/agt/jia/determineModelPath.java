@@ -18,7 +18,7 @@ public class determineModelPath extends DefaultInternalAction {
 
     	Random random = new Random(new Date().getTime());
     	String basePath = "models\\";    	
-    	String[] treeModelNames = {"tree_model_name_here","","",""};
+    	String[] treeModelNames = {"reptree1.model","reptree2.model","reptree3.model","reptree4.model"};
     	String[] neuralNetworkModelPaths = {"mlp_hl_4.model","mlp_hl_5.model"};
     	
     	String algType  = args[0].toString();
